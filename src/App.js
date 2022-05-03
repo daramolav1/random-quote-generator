@@ -1,7 +1,8 @@
 import "./App.css";
+import RandomQuote from "./quotes/RandomQuote";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return <RandomQuote />;
 }
 
 export default App;
