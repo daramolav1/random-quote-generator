@@ -8,7 +8,7 @@ export default function RandomQuote() {
   useEffect(() => {
     async function loadQuotes() {
       const response = await fetch(
-        "http://quotes.stormconsultancy.co.uk/quotes.json"
+        "https://quotes.stormconsultancy.co.uk/quotes.json"
       );
       const quotesFromAPI = await response.json();
       setQuotes(quotesFromAPI);
