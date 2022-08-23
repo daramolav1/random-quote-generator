@@ -30,6 +30,7 @@ export default function RandomQuote() {
     navigator.clipboard.writeText(`${currentQuote.quote}`);
     setCopied(true);
   };
+
   const handleNewQuote = () => {
     setCurrentQuote(quotes[randomId]);
     setCopied(false);
