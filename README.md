@@ -13,4 +13,4 @@ Random Quote Generator makes use of React state and effect to generate and displ
 
 ### API Interface:
 
-- URL for quotes [quotes.stormconsultancy.co.uk/quotes.json](http://quotes.stormconsultancy.co.uk/quotes.json)
+- URL for quotes [dummyjson.com/docs/quotes](https://dummyjson.com/docs/quotes)
